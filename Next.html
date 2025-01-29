@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="index.css">
+<script>
+    function fun(){
+        alert("Thank you for booking!");
+    }
+</script>
+</head>
+<body>
+    
+    <div>
+        <form action="post" id="bookingForm">
+           
+        <h2 class="container">Full Address</h2>
+
+        <div class="current_location location">
+            <span>🟢</span><input type="text" name="location" id="green_dot" placeholder="Current Location">
+            <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/current-location.svg" alt="location_symbol">
+ 
+        <div class="enter_destination location">
+            <span>🟠</span><input type="text" name="location" id="red_dot" placeholder="Enter Destination">
+        </div><br>
+
+        <div>
+            <h2>How many Passengers</h2>
+            
+            <div>
+                <p>Solo/Dual Bike Or Car Booking</p>
+                <select name="passengers">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select><br>
+
+                <p>Family Car Booking</p>
+                <select name="passengers">
+                    <option>0 - 0</option>
+                    <option>1 - 4</option>
+                    <option>1 - 5</option>
+                </select><br>
+
+                <p>Mini - Bus Booking</p>
+                <select name="passengers">
+                    <option>0 - 0</option>
+                    <option>10 - 20</option>
+                    <option>10 - 30</option>
+                </select><br>
+            </div>
+        </div>
+
+        <div><br>
+            <button onclick="fun()">Book Now</button>
+        </div><br>
+
+    <div>
+        <ul>Details of vehicles in brief:</ul>
+
+        <li><a href="Daily.html">Daily Vehicle Details:</a></li>
+
+        <p>Our app offers a wide range of daily-use vehicles for rent, catering to both tourists and locals alike. Choose from comfortable cars for a leisurely drive, convenient mini-buses for group excursions, or eco-friendly bikes for a more adventurous exploration of the area. With user-friendly features, you can easily compare prices, check vehicle availability, and make bookings on the go. Whether you're planning a scenic road trip or a quick jaunt around town, our platform ensures you have the perfect vehicle to enhance your travel experience. Enjoy flexibility and convenience as you discover new destinations at your own pace!</p>
+    
+        <li><a href="Rental.html">Rental Vehicle Details:</a></li>
+
+        <p>Our rental app provides an extensive selection of vehicles tailored for tourists and locals alike. From sleek cars perfect for city cruising to spacious mini-buses ideal for family outings or group adventures, we have options to suit every need. For those looking to explore the area at a leisurely pace, our fleet of bikes offers a fun and eco-friendly way to navigate the sights. With easy booking, competitive pricing, and a user-friendly interface, you can effortlessly secure the right vehicle for your journey, making your travel experience more enjoyable and hassle-free. Get ready to explore with freedom and flexibility!</p>
+
+  
+        <li><a href="OutStation.html">Outstation Vehicle Details:</a></li>
+
+        <p>Our app specializes in outstation vehicle rentals, providing an ideal solution for travelers looking to explore beyond city limits. Choose from a variety of comfortable cars and spacious mini-buses designed for longer journeys, ensuring a smooth and enjoyable ride for you and your companions. Whether you're planning a weekend getaway, a family road trip, or a scenic adventure, our platform makes it easy to compare options, check availability, and book your vehicle with just a few taps. With competitive rates and reliable service, you can hit the road with confidence and make unforgettable memories along the way!</p>
+    </div>
+    
+</form>
+
+</body>
+</html>

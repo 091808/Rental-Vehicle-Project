@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental & Tourists Vehicle Pvt Ltd</title>
+    <link rel="stylesheet" href="Style.css">   
+</head>
+<body>
+
+<div class="header">
+    <img style="padding: 10px;" src="Rental Logo.png" alt="Logo" width= "100" height= "100">
+    <h1 style="text-align:center;">Rental & Tourists Vehicle Pvt Ltd</h1>
+</div>
+
+    <div>
+        <div class="container">
+    <img src="https://aws.wideinfo.org/topmotoric.com/wp-content/uploads/2019/03/09085759/east-coast-car-rentals-fleet-2.jpg" alt="Rental & Tourists Vehicle" width="550" height="500">
+    <img src="https://www.revzilla.com/blog_content_image/image/68665/gallery/2020-Royal-Enfield-Classic-500.jpg" alt="Bullet-Img" width="500" height="400">
+    
+    </div>
+
+        <div class="vehicle-list">
+            <!-- Vehicles will be dynamically added here -->
+        </div>
+        <form action="post" id="bookingForm">
+            <h2>Customer Details</h2>
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" placeholder="Enter your full name" autofocus required>
+            <br><br>
+
+            <label for="emailId">Email Id:</label>
+            <input type="text" id="emailId" placeholder="Enter Email Id">
+            <br><br>
+
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" required>
+            <br><br>
+
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" required>
+            <br><br>
+
+            <h2>Vehicle - Types</h2>
+
+        <div class="tab_items" href="Next.html">
+            
+            <button class="tab active" data-tab="Daily" data-target="daily"><a href="Daily.html">Daily</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="tab active" data-tab="Rental" data-target="rental"><a href="Rental.html">Rental</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="tab active" data-tab="OutStation" data-target="outstation"><a href="OutStation.html">OutStation</a></button>
+        </div>
+     
+            <div>
+                <h4 style="font-size: large;">Bikes &nbsp;&nbsp;&nbsp; Cars &nbsp;&nbsp;&nbsp; Mini-Buses</h4>
+                <div>
+                    <label for="manual-bikes">Manual - Bikes</label>
+                    <input type="radio" id="manual-bikes" name="vehicle" value="Bikes" required>
+                </div><br>
+                
+                <div>
+                    <label for="automatic-bikes">Automatic - Bikes</label>
+                    <input type="radio" id="automatic-bikes" name="vehicle" value="Bikes" required>
+                </div><br>
+                
+                <div>
+                    <label for="electric-bikes">Electric - Bikes</label>
+                    <input type="radio" id="electric-bikes" name="vehicle" value="Bikes" required>
+                </div><br>
+            
+                <div>
+                    <label for="manual-cars">Manual - Car</label>
+                    <input type="radio" id="manual-cars" name="vehicle" value="Car" required>
+                </div><br>
+            
+                <div>
+                    <label for="automatic-cars">Automatic - Car</label>
+                    <input type="radio" id="automatic-cars" name="vehicle" value="Car" required>
+                </div><br>
+            
+                <div>
+                    <label for="electric-cars">Electric - Car</label>
+                    <input type="radio" id="electric-cars" name="vehicle" value="Car" required>
+                </div><br>
+            
+                <div>
+                    <label for="manual-buses">Manual - Mini-Bus</label>
+                    <input type="radio" id="manual-buses" name="vehicle" value="Bus" required>
+                </div><br>
+            
+                <div>
+                    <label for="electric-buses">Electric - Bus</label>
+                    <input type="radio" id="electric-buses" name="vehicle" value="Bus" required>
+                </div><br>
+
+            </div><br>
+                
+            <h2>Sharing-Vehicle</h2>
+
+            <div>
+                <select name="yes-or-no">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div><br><br>
+
+            <div>
+                <label for="comments">Enter your Comment for Sharing-Vehicle</label>
+                <br>
+                <textarea id="comments" name="comments" placeholder="Give your comment here"></textarea>
+            </div>
+        </div><br>
+
+        <div>
+            <a href="Next.html">Next Page</a>
+        </div>
+           
+        </form>
+    </div>   
+    
+</body>
+</html>
